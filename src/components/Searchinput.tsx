@@ -20,7 +20,9 @@ export const Searchinput = () => {
         return a.name.toLowerCase().includes(el.toLowerCase().trim());
       });
       setName(filterName);
-    } else setName(data);
+    } else {
+      setName(data);
+    }
   }
 
   return (
