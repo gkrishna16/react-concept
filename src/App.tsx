@@ -1,7 +1,12 @@
 import React from "react";
 import "./App.css";
-import { Searchinput } from "./components/Searchinput";
-import AccoridianPage from "./components/AccoridianPage";
+// import { Searchinput } from "./components/Searchinput";
+// import AccoridianPage from "./components/AccoridianPage";
+
+
+
+
+
 const text = (
   <p>
     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -15,9 +20,9 @@ function App() {
   return (
     <div className="App">
       <div>HOME PAGE</div>
-      <Searchinput />
+      {/* <Searchinput />
       <AccoridianPage text={text} />
-      <AccoridianPage text={text} />
+      <AccoridianPage text={text} /> */}
     </div>
   );
 }
